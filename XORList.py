@@ -8,11 +8,11 @@
 # example(1, [0, 0, 0], [4, 5, 6]) == False
 
 
-def XOR2(n,list1, list2):
+def XORList(n,list1, list2):
 	return (n in list1) != (n in list2)
 
 list1 = [1,2,2]
 list2 = [3,2,1]
 n = 1
-print(XOR2(n, list1, list2))
+print(XORList(n, list1, list2))
 
